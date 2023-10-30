@@ -1,0 +1,233 @@
+
+.nav-bar {
+    height: 75px;
+    background: #1f2937;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.navbar-sub {
+    height: 60px;
+    gap: 10px;
+    flex: 1;
+    display: flex;
+}
+.navlink-sub {
+    height: 40px;
+    width: 100px;
+    padding-top: 12px;
+    flex: 1;
+}
+.header-logo {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.header-link {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 0;
+    margin-right: 0;
+    flex: 1;
+    text-align: right;
+}
+
+section {
+    height: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: flex;
+    gap: 50px;
+    justify-content: center; 
+}
+
+.section-one {
+    background: #1f2937;
+}
+.secone-sub {
+    height: 200px;
+    width: 680px;
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+}
+.secone-col {
+    height: 75px;
+    flex: auto;
+}
+.hero-main {
+    font-family: sans-serif;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-top: 0;
+}
+.hero-text {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #E5E7E8;
+    margin-top: 0;
+}
+.blue-button {
+    width: 65px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.image-container {
+    background-color: #6d747e;
+    font-family: sans-serif;
+    color: #f9faf8;
+    text-align: center;
+    padding-top: 85px;
+    flex: 1;
+}
+
+.section-two {
+    background: #f9faf8;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.sectwo-sub {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.info-header {
+    font-family: sans-serif;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+.sectwo-item {
+    width: 175px;
+    height: 175px;
+    border: 10px #3882f6;
+    background-color: #6d747e;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+.sectwo-text {
+    width: 175px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.section-three {
+    background: #e5e7eb;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.secthree-sub{
+    justify-content: right;
+    flex-direction: row;
+    display: flex;
+    gap: 25px;
+    width: 1200px;
+    align-items: center;
+}
+.quote-text {
+    font-family: sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-author{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: right;
+}
+
+.section-four {
+    background: #f9faf8;
+    display: flex;
+}
+.secfour-sub {
+    background: #3882f6;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 125px;
+    padding-right: 125px;
+    flex: 1;
+    display: flex;
+    gap: 50px;
+}
+.secfour-text {
+    flex: 2 1 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cta-header{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    text-align: left;
+}
+.cta-text{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: left;
+}
+.secfour-button {
+    flex: 1 1 0%;
+    align-items: center;
+    display: flex;
+}
+.cta-button {
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    background: green;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.page-footer {
+    height: 70px;
+    background: #1f2937;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+    padding-top: 37.5px;
+}
